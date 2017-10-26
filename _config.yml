@@ -7,7 +7,7 @@ url                          : "https://jumpsnack.github.io" # the base hostname
 blog:
   title                      : JUMPSNACK
   description                  : >
-                               An aligned idea in a neat life
+                               ''An aligned idea in a neat life''
 
 # Layout configuration
   logo_path                  : "assets/img/logo.gif" # path to logo file
