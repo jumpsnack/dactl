@@ -28,7 +28,7 @@ export class OrderComponent {
     @Input() quantity : string;
 }
 ```
-
+-
 ## Outer component
 
 ### **.ts**
@@ -43,7 +43,7 @@ export class AppComponent {
     }
 }
 ```
-
+-
 ### **.html**
 
 ```
