@@ -2,5 +2,5 @@
 slug: angular
 name: Angular
 description: >
-  This tag has the description filled in - check it out `_my_tags/angular.md`
+  TypeScript-based open-source front-end web application platform led by the Angular Team at Google
 ---
