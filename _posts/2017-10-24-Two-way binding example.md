@@ -15,7 +15,7 @@ published: true
 
 ### **.ts**
 
-```
+```ts
 @Component({
     selector : ‘app-processor’,
     template : `
@@ -28,12 +28,12 @@ export class OrderComponent {
     @Input() quantity : string;
 }
 ```
--
+
 ## Outer component
 
 ### **.ts**
 
-```
+
 @Component(…)
 
 export class AppComponent {
@@ -42,11 +42,11 @@ export class AppComponent {
         this.stock = target.value;
     }
 }
-```
--
+
+
 ### **.html**
 
-```
+
 <input type=‘text’ (change)=‘onInputEvent($event)’></br>
 <app-processor [stockSymbol]=’stock’ [quantity]=100></app-processor>
-```
+
