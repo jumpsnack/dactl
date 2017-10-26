@@ -1,17 +1,18 @@
 # Base blog settings
 baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "http://jumpsnack.github.io" # the base hostname & protocol for your site
+url                          : "https://jumpsnack.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : JUMPSNACK
   description                  : >
-                               this should contain a proper description
+                               A aligned idea in a neat life
 
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
-  search_path                : # "yourgitusername.github.io"
+  logo_path                  : "http://www.tintin.co.jp/cast/tintin/img/tintin_01_01.jpg?timestamp=1508987566388" # path to logo file
+  search_path                : jumpsnack.github.io
+                                # "yourgitusername.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
@@ -26,13 +27,13 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : Eddie Kim
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
-  youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
+  mail                      : swkim@eng.ucsd.edu # change to your e-mail address
+  twitter                   : 
+  github                    : jumpsnack
+  youtube                   : 
+  stackoverflow             : 
   disqus                    : # your_disqus_forum_shortname
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
