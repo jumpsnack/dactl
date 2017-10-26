@@ -6,7 +6,7 @@ tags:
   - typescript
 description: >
   A basic decription of Callback methods of Angular
-hero: http://lorempixel.com/g/640/480/
+hero: https://picsum.photos/g/640/300/?random
 overlay: orange
 published: true
 ---
