@@ -11,10 +11,12 @@ header {
     font-weight: $base-font-weight-bold;
     color: var(--link-color);
     z-index: 1;
+	position: relative;
     .logosvg {
 	height: 150px;
         -webkit-filter: var(--invert-logo-color);
 	z-index: -1;
+	    position: relative;
     }
 }
 
@@ -86,10 +88,12 @@ header {
     .logo {
       margin-top: 5rem;
       z-index: 1;
+	    position: relative;
       .logosvg {
         display: block;
         margin: -9rem auto 5rem auto;
 	z-index: -1;
+	      position: relative;
       }
     }
 }
