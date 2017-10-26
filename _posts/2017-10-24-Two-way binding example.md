@@ -15,25 +15,25 @@ published: true
 
 ### **.ts**
 
-```
+{% highlight typescript %}
 @Component({
     selector : 'app-processor',
-    template : '
+    template : `
         Buying ((quantity)) share of ((stockSymbol))
-    ',
+    `,
     styles : [':host {background: cyan;}']
 })
 export class OrderComponent {
     @Input() stockSymbol : string;
     @Input() quantity : string;
 }
-```
+{% endhighlight %}
 
 ## Outer component
 
 ### **.ts**
 
-```
+{% highlight typescript %}
 @Component(…)
 
 export class AppComponent {
@@ -42,11 +42,11 @@ export class AppComponent {
         this.stock = target.value;
     }
 }
-```
+{% endhighlight %}
 
 ### **.html**
 
-```
+{% highlight html %}
 <input type='text' (change)='onInputEvent($event)'></br>
 <app-processor [stockSymbol]='stock' [quantity]=100></app-processor>
-```
+{% endhighlight %}
