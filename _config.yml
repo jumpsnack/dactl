@@ -10,7 +10,7 @@ blog:
                                An aligned idea in a neat life
 
 # Layout configuration
-  logo_path                  : "assets/img/logo.jpg" # path to logo file
+  logo_path                  : "assets/img/logo.gif" # path to logo file
   search_path                : jumpsnack.github.io
                                 # "yourgitusername.github.io"
                                # needed for searchbox in archive page
