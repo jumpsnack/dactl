@@ -6,7 +6,7 @@ tags:
   - typescript
 description: >
   presents a brief example about Two-way binding
-hero: https://picsum.photos/g/1280/720/?image=2
+hero: https://picsum.photos/g/1280/720/?image=23
 overlay: orange
 published: true
 ---
