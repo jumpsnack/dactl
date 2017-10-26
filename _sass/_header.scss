@@ -12,6 +12,7 @@ header {
     color: var(--link-color);
 
     .logosvg {
+	height: 100%;
         -webkit-filter: var(--invert-logo-color);
     }
 }
