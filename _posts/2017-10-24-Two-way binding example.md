@@ -6,13 +6,15 @@ tags:
   - typescript
 description: >
   presents a brief example about Two-way binding
-hero: https://picsum.photos/g/1280/720/?random
+hero: https://picsum.photos/g/1280/720/?1345
 overlay: orange
 published: true
 ---
 
-##Inner component
+## Inner component
+
 ### **.ts**
+
 ```typescript
 @Component({
     selector : ‘app-processor’,
@@ -27,8 +29,10 @@ export class OrderComponent {
 }
 ```
 
-##Outer component
+## Outer component
+
 ### **.ts**
+
 ```typescript
 @Component(…)
 
@@ -39,7 +43,9 @@ export class AppComponent {
     }
 }
 ```
+
 ### **.html**
+
 ```html
 <input type=‘text’ (change)=‘onInputEvent($event)’></br>
 <app-processor [stockSymbol]=’stock’ [quantity]=100></app-processor>
