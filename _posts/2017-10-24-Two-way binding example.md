@@ -18,9 +18,9 @@ published: true
 ```
 @Component({
     selector : 'app-processor',
-    template : `
+    template : '
         Buying ((quantity)) share of ((stockSymbol))
-    `,
+    ',
     styles : [':host {background: cyan;}']
 })
 export class OrderComponent {
