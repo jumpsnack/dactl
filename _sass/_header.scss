@@ -14,6 +14,7 @@ header {
     .logosvg {
 	height: 150px;
         -webkit-filter: var(--invert-logo-color);
+	z-index: -1;
     }
 }
 
