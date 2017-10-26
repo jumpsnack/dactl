@@ -1,6 +1,6 @@
 ---
 slug: typescript
-name: Typescript
+name: TypeScript
 description: >
-  This tag has the description filled in - check it out `_my_tags/typescript.md`
+  A free and open-source programming language developed and maintained by Microsoft
 ---
