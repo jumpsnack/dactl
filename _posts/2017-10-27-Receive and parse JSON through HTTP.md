@@ -154,4 +154,4 @@ export class HttpClientComponent {
 {% endhighlight %}
 
 You handled the observable stream of contacts in the TypeScript code by invoking the `subscribe()` method. Angular offers an alternative syntax that lets you handle observables right in the template of a component with pipes.
-Angular includes `AsyncPipe`(`async` if used in templates), which can receive a `Promise` or `Observable` as input and subscribe to it automatically.
+Angular includes `AsyncPipe` (*`async`* if used in templates), which can receive a `Promise` or `Observable` as input and subscribe to it automatically.
