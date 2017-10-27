@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reuest and parse JSON through HTTP
+title: Request and parse JSON through HTTP
 tags:
   - angular
   - typescript
