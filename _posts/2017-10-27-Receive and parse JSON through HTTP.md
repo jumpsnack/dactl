@@ -113,4 +113,4 @@ export class AppComponent implements OnInit {
 
 ## Result
 
-![800x400](assets/logo.gif "result image")
+![800x400](assets/img/logo.gif "result image")
