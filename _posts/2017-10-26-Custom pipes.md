@@ -11,7 +11,7 @@ overlay: purple
 published: true
 ---
 
-Angular offers a simple way to create custom pipes, which can include code specific to your application. You need to create a *@Pipe* annotated class that implements the *PipeTransform* interface. The *PipeTransform* interface has the following signature.
+Angular offers a simple way to create custom pipes, which can include code specific to your application. You need to create a *`@Pipe`* annotated class that implements the *`PipeTransform`* interface. The *`PipeTransform`* interface has the following signature.
 
 {% highlight typescript %}
 export interface PipeTransform {
