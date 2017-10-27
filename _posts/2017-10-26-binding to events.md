@@ -13,7 +13,7 @@ published: true
 
 To assign an event-handler function to an event, you need to pit the event name in parentheses in thecomponent's template. The following code snippet shows how to bind the function *onClickEvent()* to the click event, and the function *onInputEvent()* to the input event
 
-{% hightlight html %}
+{% highlight html %}
 <button (click) = ‘onClickEvent()’>Get Products</button>
 <input placeholder=‘Product name’ (input)=‘onInputEvent()’>
 {% endhighlight %}
