@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Pipes
+title: Binding to events
 tags:
   - angular
   - typescript
 description: >
   presents a brief example and description about pipes
-hero: https://picsum.photos/1280/720/?image=546
+hero: https://picsum.photos/1280/720/?image=3
 overlay: red
 published: true
 ---
