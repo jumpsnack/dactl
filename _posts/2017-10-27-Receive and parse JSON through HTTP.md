@@ -54,11 +54,9 @@ const server = app.listen(4300, "localhost", () => {
 {% endhighlight %}
 
 Usage:
-`
-$ tsc above file.ts //then generated above file.js
+`$ tsc above file.ts //then generated above file.js
 $ node above file.js
-Listening on http://localhost:4300
-`
+Listening on http://localhost:4300`
 
 ## Angular Client
 
