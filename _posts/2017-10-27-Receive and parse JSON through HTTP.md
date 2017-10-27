@@ -110,3 +110,7 @@ export class AppComponent implements OnInit {
 
 {% endraw %}
 {% endhighlight %}
+
+## Result
+
+![800x400](assets/logo.gif "result image")
