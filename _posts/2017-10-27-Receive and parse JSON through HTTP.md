@@ -97,6 +97,8 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 
+### html
+
 {% highlight html %}
 {% raw %}
 <h1>Contacts</h1>
