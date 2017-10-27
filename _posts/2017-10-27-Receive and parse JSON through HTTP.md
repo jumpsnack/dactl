@@ -4,7 +4,7 @@ title: Receive and parse JSON through HTTP
 tags:
   - angular
   - typescript
-hero: https://picsum.photos/1280/720/?image=4352
+hero: https://picsum.photos/1280/720/?image=421
 overlay: yellow
 published: true
 ---
