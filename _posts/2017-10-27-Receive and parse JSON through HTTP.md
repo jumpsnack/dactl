@@ -121,3 +121,34 @@ export class AppComponent implements OnInit {
 ## Result
 
 ![800x400](assets/img/posts/2017-10-27-receive and parse json through http-result.png "result image")
+
+## More simple way
+
+{% highlight typescript %}
+{% raw %}
+import { Component } from '@angular/core';
+import {Observable} from "rxjs/Observable";
+import {Http} from "@angular/http";
+
+@Component({
+  selector: 'app-http-client',
+  template: `
+    <h1>All Contacts</h1>
+    <ul>
+      <li *ngFor="let contact of contacts | async">
+        {{contact.name}}
+      </li>
+    </ul>
+  `,
+  styles: []
+})
+export class HttpClientComponent {
+
+  contacts: Observable<Array<string>>;
+
+  constructor(private http: Http) {
+    this.contacts = this.http.get('http://localhost:4300/contacts').map(res => res.json());
+  }
+}
+{% endraw %}
+{% endhighlight %}
