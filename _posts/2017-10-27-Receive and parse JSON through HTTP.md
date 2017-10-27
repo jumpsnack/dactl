@@ -11,7 +11,7 @@ published: true
 
 ## Simple HTTP Server
 
-### ts
+### .ts
 
 {% highlight typescript %}
 {% raw %}
@@ -62,7 +62,7 @@ Listening on http://localhost:4300
 
 ## Angular Client
 
-### ts
+### .ts
 {% highlight typescript %}
 {% raw %}
 import {Component, OnInit} from '@angular/core';
@@ -104,7 +104,7 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 
-### html
+### .html
 
 {% highlight html %}
 {% raw %}
