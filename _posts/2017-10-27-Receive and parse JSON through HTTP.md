@@ -113,4 +113,4 @@ export class AppComponent implements OnInit {
 
 ## Result
 
-![800x400](assets/img/logo.gif "result image")
+![800x400](assets/img/posts/2017-10-27-receive and parse json through http-result.png "result image")
