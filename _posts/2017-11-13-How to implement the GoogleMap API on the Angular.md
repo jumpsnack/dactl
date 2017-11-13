@@ -24,7 +24,7 @@ $ npm install @agm/core --save
 
 ### Setup @NgModule
 open src/app.module.ts and import the `AgmCoreModule`
-+You need to provide a Google Maps API key to be able to see a Map+
+++You need to provide a Google Maps API key to be able to see a Map++
 
 {% highlight typescript %}
 {% raw %}
