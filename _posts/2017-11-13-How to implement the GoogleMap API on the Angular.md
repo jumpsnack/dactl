@@ -6,7 +6,7 @@ tags:
   - typescript
   - googlemap
 hero: https://picsum.photos/1280/720/?image=741
-overlay: red
+overlay: brown
 published: true
 ---
 
