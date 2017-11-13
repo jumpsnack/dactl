@@ -10,17 +10,17 @@ overlay: brown
 published: true
 ---
 
-## Setting up Angular Google Maps
+# Setting up Angular Google Maps
 
 ### Install Angular Google Maps
 
 {% highlight bash %}
 {% raw %}
-
 $ npm install @agm/core --save
-
 {% endraw %}
 {% endhighlight %}
+
+
 
 ### Setup @NgModule
 open src/app.module.ts and import the `AgmCoreModule`
@@ -33,18 +33,19 @@ import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
 imports:[
-...,
-AgmCoreModule.forRoot({
-apiKey: 'YOUR_KEY_HERE'
-})
+  ...,
+  AgmCoreModule.forRoot({
+    apiKey: 'YOUR_KEY_HERE'
+  })
 ],
 ...
-}
-)
+})
 export class AppModule{}
 
 {% endraw %}
 {% endhighlight %}
+
+
 
 ### Extending the app component
 
@@ -65,6 +66,8 @@ lng: number = 7.80546;
 
 {% endraw %}
 {% endhighlight %}
+
+
 
 ### Setup the template
 Open the file src/app/app.component.html and paste the following content:
