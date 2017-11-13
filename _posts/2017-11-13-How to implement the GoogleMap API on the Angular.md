@@ -6,7 +6,7 @@ tags:
   - angular
   - typescript
   - googlemap
-hero: https://picsum.photos/1280/720/?image=741
+hero: https://picsum.photos/1280/720/?image=258
 overlay: red
 published: true
 ---
