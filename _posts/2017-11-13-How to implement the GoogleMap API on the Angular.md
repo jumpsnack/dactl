@@ -24,8 +24,8 @@ $ npm install @agm/core --save
 
   
 2. ### Setup @NgModule
-open src/app.module.ts and import the `AgmCoreModule`
-++You need to provide a Google Maps API key to be able to see a Map++
+open src/app.module.ts and import the `AgmCoreModule`  
+**_You need to provide a Google Maps API key to be able to see a Map_**
 
 {% highlight typescript %}
 {% raw %}
@@ -82,4 +82,4 @@ Open the file src/app/app.component.html and paste the following content:
 
 {% endraw %}
 {% endhighlight %}
-*CSS Styling is mandatory!*
+**CSS Styling is mandatory!**
