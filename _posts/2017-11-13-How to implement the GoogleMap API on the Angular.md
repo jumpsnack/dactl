@@ -11,8 +11,9 @@ published: true
 ---
 
 # Setting up Angular Google Maps
-
-### Install Angular Google Maps
+===
+  
+1. ### Install Angular Google Maps
 
 {% highlight bash %}
 {% raw %}
@@ -21,8 +22,8 @@ $ npm install @agm/core --save
 {% endhighlight %}
 
 
-
-### Setup @NgModule
+  
+2. ### Setup @NgModule
 open src/app.module.ts and import the `AgmCoreModule`
 ++You need to provide a Google Maps API key to be able to see a Map++
 
@@ -46,8 +47,8 @@ export class AppModule{}
 {% endhighlight %}
 
 
-
-### Extending the app component
+  
+3. ### Extending the app component
 
 {% highlight typescript %}
 {% raw %}
@@ -68,8 +69,8 @@ lng: number = 7.80546;
 {% endhighlight %}
 
 
-
-### Setup the template
+  
+4. ### Setup the template
 Open the file src/app/app.component.html and paste the following content:
 
 {% highlight html %}
