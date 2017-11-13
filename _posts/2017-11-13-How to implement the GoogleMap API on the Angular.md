@@ -11,6 +11,7 @@ published: true
 ---
 
 ## Setting up Angular Google Maps
+----
   
 + ### Install Angular Google Maps
 
