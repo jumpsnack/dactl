@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Request and parse JSON through HTTP
+title: How to implement the GoogleMap API on the Angular
 tags:
   - angular
   - typescript
