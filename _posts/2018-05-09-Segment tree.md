@@ -8,8 +8,8 @@ overlay: purple
 published: true
 ---
 
-## Setting up Angular Google Maps
-  
+## INTRODUCTION
+부모 노드들이 리프 노드들의 값에 대한 연속적인 구간의 합을 유지하고 있는 트리 형태
 + ### Install Angular Google Maps
 
 {% highlight bash %}
