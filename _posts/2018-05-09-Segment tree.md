@@ -4,7 +4,7 @@ title: Segment tree
 tags:
   - Data structure
 hero: https://picsum.photos/1280/720/?image=195
-overlay: green
+overlay: purple
 published: true
 ---
 
