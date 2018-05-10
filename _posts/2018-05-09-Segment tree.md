@@ -14,9 +14,14 @@ published: true
 1. Root는 모든 리프 노드들의 값을 대표한다
 2. 각 리프 노드들은 각각의 단일 값을 갖는다
 3. 내부 노드들은 각 리프들의 구간을 대표한다
++ ### 용도
+- 구간에 속하는 원소들의 합
+- 구간에 속한 원소들의 곱
+- 구간 원소들 중 최댓값
+- 구간 원소들 중 최솟값
 + ### Time complexity
-트리 생성 = O(n)
-쿼리 호출(Worst case) = O(nlgn)
+- 트리 생성 = O(n)
+- 쿼리 호출(Worst case) = O(nlgn)
 
 {% highlight bash %}
 {% raw %}
