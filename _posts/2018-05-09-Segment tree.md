@@ -65,7 +65,7 @@ sum[10] - sum[0] = 51
 
 위의 경우 sum배열에 대한 전처리에 O(n)이 걸리고 각 질의 M개에 대해 최대 O(1)의 연산이 필요하므로 총 시간복잡도는 O(n + M)으로 이전 방법보다 개선된 성능을 보인다.
 
-* k번째 수가 변경될 때
+* k번째 수가 변경될 때.
 10개의 수에 대해 k번째 수를 변경하는 상황이 발생할 수 있다.
 1. 3번째 수를 4로 변경하고 3~6번째 수를 구하는 연산
 2. 4번째 수를 -10으로 변경하고 1~4번째 수를 구하는 연산
@@ -84,8 +84,7 @@ Segment tree란 구간을 대표하는 값을 Tree형태로 저장하는 자료�
 
 ![400x200](/assets/img/segment tree/tree2.png "tree image")
 
-* Segment tree에서 합 구하기
-
+* Segment tree에서 합 구하기.
 Segment tree에 대해 특정 구간에 대한 연산이 요청된 경우 어떤 대표값들이 선택되는지 나타내면 다음과 같다.
 1. 1~4 구간의 합
 1~4 구간은 초록색으로 나타낸 하나의 대표노드로 값을 구할 수 있다. 합은 18
@@ -97,8 +96,7 @@ Segment tree에 대해 특정 구간에 대한 연산이 요청된 경우 어떤
 Segment tree에서 합을 구하는 연산의 Time complexity는 O(logn)이다.
 이진 트리인 Segment tree는 높이 만큼 대표노드가 최대로 선택될 수 있기 때문이다.
 
-* Segment tree에서 값 갱신
-
+* Segment tree에서 값 갱신.
 값이 갱신되면 그 값을 대표하는 모든 노드들의 값도 수정해야 한다.
 1. 7번째 수를 6으로 갱신할 때
 ![400x200](/assets/img/segment tree/tree5.png "tree image")
@@ -108,8 +106,7 @@ Segment tree에서 합을 구하는 연산의 Time complexity는 O(logn)이다.
 Segment tree에서 하나의 값을 갱신하는 연산의 Time complexity는 O(logn)이다.
 이진 트리인 Segment tree의 높이 만큼 대표노드가 최대로 선택될 수 있기 때문이다.
 
-- Lazy propagation
-
+- Lazy propagation.
 값을 갱신요청 즉시 모두 변경하지 않고 결과에 직접적인 영향을 미치는 값들만 우선적으로 변경해 연산횟수를 낮추는 기법이다.
 2번째 값에 대해 +5 연산을 수행한 후 2~4구간의 값을 찾는 과정이다.
 1. 먼저 구간 2~4를 대표하는 노드를 찾아서 출발
@@ -123,8 +120,7 @@ Segment tree에서 하나의 값을 갱신하는 연산의 Time complexity는 O(
 4. Lazy를 전파하면서 마지막 노드까지 도달하면 올바른 값을 얻을 수 있다.
 9 + 5 = 14
 
-- Lazy propagation의 상위 전파
-
+- Lazy propagation의 상위 전파.
 Lazy를 아래쪽으로 전파시켜 조상노드의 Lazy를 자식노드가 필요로 하는 상황을 해결했다.
 하지만, 다음과 같은 연산에서 처리는 다른 방안을 고려해야 한다.
 1. 구간 1~2에 5를 더하는 업데이트 발생
