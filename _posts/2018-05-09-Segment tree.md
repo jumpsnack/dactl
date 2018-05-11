@@ -31,10 +31,8 @@ $ npm install @agm/core --save
 {% endraw %}
 {% endhighlight %}
 
-  
-  
-## Basics
-### Sequential
+
+## Sequential
 9, 4, 3, 2, 1, 4, 5, 6, 7, 10 가 있을 때 a번재 수 부터 b번째 수 까지 합을 구하는 상황을 가정한다.
 
 1번째 수 부터 3번째 수 까지의 합을 구하는 연산을 수행하면
@@ -45,7 +43,7 @@ $ npm install @agm/core --save
 위 처럼 매번 a번째 부터 b번째 까지 Sequential하게 구하게 된다.
 이 때, 최악의 경우를 가정해 n개의 수와 m번의 연산에 대해 O(nm)의 시간복잡도를 가지게 된다.
 
-### Array
+## Array
 이 과정을 달리 생각하면 배열을 이용해 해결할 수 있다.
 배열 sum의 각 인덱스는 1번째 부터 i번째 수 까지의 합을 나타낸다.
 
@@ -72,7 +70,7 @@ sum[10] - sum[0] = 51
 
 이 경우 바뀐 수를 기준으로 매번 나머지 값을 모두 바꿔줘야 하기 때문에 O(n)번의 연산이 매 연산마다 발생하게 된다.
 
-### Segment tree
+## Segment tree
 Segment tree란 구간을 대표하는 값을 Tree형태로 저장하는 자료구조이다.
 각 노드는 자식 노드들을 대표하는 값을 가진다.
 10개의 수를 나타내는 Segment tree를 아래와 같이 인덱스를 이용한 그림으로 나타낼 수 있다. 그림의 각 노드는 각각이 대표하고 있는 구간의 범위를 보여주고 있다.
@@ -84,7 +82,7 @@ Segment tree란 구간을 대표하는 값을 Tree형태로 저장하는 자료�
 
 ![400x200](/assets/img/segment tree/tree2.png "tree image")
 
-#### Segment tree에서 합 구하기.
+### Segment tree에서 합 구하기.
 Segment tree에 대해 특정 구간에 대한 연산이 요청된 경우 어떤 대표값들이 선택되는지 나타내면 다음과 같다.
 1. 1~4 구간의 합
 1~4 구간은 초록색으로 나타낸 하나의 대표노드로 값을 구할 수 있다. 합은 18
@@ -96,7 +94,7 @@ Segment tree에 대해 특정 구간에 대한 연산이 요청된 경우 어떤
 Segment tree에서 합을 구하는 연산의 Time complexity는 O(logn)이다.
 이진 트리인 Segment tree는 높이 만큼 대표노드가 최대로 선택될 수 있기 때문이다.
 
-#### Segment tree에서 값 갱신.
+### Segment tree에서 값 갱신.
 값이 갱신되면 그 값을 대표하는 모든 노드들의 값도 수정해야 한다.
 1. 7번째 수를 6으로 갱신할 때
 ![400x200](/assets/img/segment tree/tree5.png "tree image")
