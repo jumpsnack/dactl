@@ -84,7 +84,7 @@ Segment tree란 구간을 대표하는 값을 Tree형태로 저장하는 자료�
 
 ![400x200](/assets/img/segment tree/tree2.png "tree image")
 
-* Segment tree에서 합 구하기.
+#### Segment tree에서 합 구하기.
 Segment tree에 대해 특정 구간에 대한 연산이 요청된 경우 어떤 대표값들이 선택되는지 나타내면 다음과 같다.
 1. 1~4 구간의 합
 1~4 구간은 초록색으로 나타낸 하나의 대표노드로 값을 구할 수 있다. 합은 18
@@ -96,7 +96,7 @@ Segment tree에 대해 특정 구간에 대한 연산이 요청된 경우 어떤
 Segment tree에서 합을 구하는 연산의 Time complexity는 O(logn)이다.
 이진 트리인 Segment tree는 높이 만큼 대표노드가 최대로 선택될 수 있기 때문이다.
 
-* Segment tree에서 값 갱신.
+#### Segment tree에서 값 갱신.
 값이 갱신되면 그 값을 대표하는 모든 노드들의 값도 수정해야 한다.
 1. 7번째 수를 6으로 갱신할 때
 ![400x200](/assets/img/segment tree/tree5.png "tree image")
