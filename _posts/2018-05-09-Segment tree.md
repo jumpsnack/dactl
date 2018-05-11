@@ -25,13 +25,6 @@ published: true
 * 트리 생성 = O(n)
 * 쿼리 호출(Worst case) = O(nlgn)
 
-{% highlight bash %}
-{% raw %}
-$ npm install @agm/core --save
-{% endraw %}
-{% endhighlight %}
-
-
 ## Sequential
 9, 4, 3, 2, 1, 4, 5, 6, 7, 10 가 있을 때 a번재 수 부터 b번째 수 까지 합을 구하는 상황을 가정한다.
 
@@ -104,7 +97,7 @@ Segment tree에서 합을 구하는 연산의 Time complexity는 O(logn)이다.
 Segment tree에서 하나의 값을 갱신하는 연산의 Time complexity는 O(logn)이다.
 이진 트리인 Segment tree의 높이 만큼 대표노드가 최대로 선택될 수 있기 때문이다.
 
-- Lazy propagation.
+* Lazy propagation.
 값을 갱신요청 즉시 모두 변경하지 않고 결과에 직접적인 영향을 미치는 값들만 우선적으로 변경해 연산횟수를 낮추는 기법이다.
 2번째 값에 대해 +5 연산을 수행한 후 2~4구간의 값을 찾는 과정이다.
 1. 먼저 구간 2~4를 대표하는 노드를 찾아서 출발
@@ -118,7 +111,7 @@ Segment tree에서 하나의 값을 갱신하는 연산의 Time complexity는 O(
 4. Lazy를 전파하면서 마지막 노드까지 도달하면 올바른 값을 얻을 수 있다.
 9 + 5 = 14
 
-- Lazy propagation의 상위 전파.
+* Lazy propagation의 상위 전파.
 Lazy를 아래쪽으로 전파시켜 조상노드의 Lazy를 자식노드가 필요로 하는 상황을 해결했다.
 하지만, 다음과 같은 연산에서 처리는 다른 방안을 고려해야 한다.
 1. 구간 1~2에 5를 더하는 업데이트 발생
