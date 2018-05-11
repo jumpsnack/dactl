@@ -76,7 +76,7 @@ sum[10] - sum[0] = 48
 Segment tree란 구간을 대표하는 값을 Tree형태로 저장하는 자료구조이다.
 각 노드는 자식 노드들을 대표하는 값을 가진다.
 
-![400x200]("/assets/img/segment tree/tree1.png" "tree image")
+![400x200](/assets/img/segment tree/tree1.png "tree image")
 
 {% highlight typescript %}
 {% raw %}
